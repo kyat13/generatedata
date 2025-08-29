@@ -1,7 +1,7 @@
 import { AnyAction } from 'redux';
 import { produce } from 'immer';
 import * as actions from './main.actions';
-import C from '@generatedata/config/constants';
+import C from '../../../../packages/config/src/constants';
 import { AccountStatusFilter, AuthMethod, GDLocale } from '~types/general';
 import { ColSortDir } from '~components/tables/TableHeader.component';
 import clientConfig from '@generatedata/config/clientConfig';

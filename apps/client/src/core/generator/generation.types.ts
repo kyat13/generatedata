@@ -1,7 +1,7 @@
 import { GenerationTemplate } from '~types/general';
 import { UnchangedGenerationData } from '~types/generator';
 import { CountryDataType } from '@generatedata/types';
-import { CountryNamesMap, DataTypeMap } from '@generatedata/plugins';
+import { CountryNamesMap, DataTypeMap } from '../../../../packages/plugins/src/index';
 
 export enum GenerationWorkerActionType {
 	Generate = 'GENERATE',

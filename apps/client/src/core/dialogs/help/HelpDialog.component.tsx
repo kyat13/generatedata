@@ -5,7 +5,7 @@ import { DropdownOption } from '~components/dropdown/Dropdown';
 import { MediumSpinner } from '~components/loaders/loaders';
 import { getSortedGroupedDataTypes, getDataType } from '~utils/dataTypes';
 import styles from './HelpDialog.scss';
-import { DataTypeFolder } from '@generatedata/plugins';
+import { DataTypeFolder } from '../../../../packages/plugins/src/index';
 
 export type HelpDialogProps = {
 	visible: boolean;

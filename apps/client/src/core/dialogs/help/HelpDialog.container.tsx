@@ -3,7 +3,7 @@ import { Dispatch } from 'redux';
 import * as selectors from '~store/generator/generator.selectors';
 import * as actions from '~store/generator/generator.actions';
 import HelpDialog, { HelpDialogProps } from './HelpDialog.component';
-import { DataTypeFolder } from '@generatedata/plugins';
+import { DataTypeFolder } from '../../../../packages/plugins/src/index';
 
 const mapStateToProps = (
 	state: any

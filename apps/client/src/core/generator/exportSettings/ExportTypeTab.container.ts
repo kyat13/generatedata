@@ -4,7 +4,7 @@ import { ExportTypeTab, ExportTypeTabProps } from './ExportTypeTab.component';
 import * as selectors from '~store/generator/generator.selectors';
 import * as actions from '~store/generator/generator.actions';
 import { getExportTypeSettingsComponent } from '~utils/exportTypes';
-import { ExportTypeFolder } from '@generatedata/plugins';
+import { ExportTypeFolder } from '../../../../packages/plugins/src/index';
 
 const mapStateToProps = (
 	state: any

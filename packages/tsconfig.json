@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@generatedata/config": ["packages/config/src/index.ts"],
+      "@generatedata/types": ["packages/types/src/index.ts"],
+      "@generatedata/utils": ["packages/utils/src/index.ts"]
+    }
+    // ...other options...
+  }
+  // ...other config...
+}

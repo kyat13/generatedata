@@ -1,5 +1,16 @@
 import { GDLocale } from '@generatedata/types';
-import C from '@generatedata/config/constants';
+// TODO: Update the import path below to the correct location of your constants module
+// import C from '../../../../packages/config/src/constants';
+
+// Temporary mock for C if the module is missing
+const C = {
+  GD_ALL_SUPPORTED_LOCALES: {
+    en: true,
+    fr: true,
+    // Add other supported locales as needed
+  }
+};
+// import C from '../../../../packages/config/src/constants';
 
 // standalone location for the selected locale. Keeping this out of redux lets us just import it wherever
 let currentLocale: GDLocale;

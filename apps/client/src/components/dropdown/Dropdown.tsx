@@ -1,7 +1,8 @@
 import * as React from 'react';
 import Select from 'react-select';
-import { getStrings } from '@generatedata/utils/lang';
-import C from '@generatedata/config/constants';
+// import { getStrings } from '../../../../packages/utils/src/lang';
+import { getStrings } from '../../../../../packages/utils/src/lang';
+import C from '../../../../../packages/config/src/constants';
 import * as styles from './Dropdown.scss';
 
 export type DropdownOption = {

@@ -4,7 +4,7 @@ import CreatableSelect from 'react-select/creatable';
 import { SortableContainer, SortableElement } from 'react-sortable-hoc';
 import { DropdownOption } from '../dropdown/Dropdown';
 import { ErrorTooltip } from '~components/tooltips';
-import { arrayMove } from '@generatedata/utils/array';
+import { arrayMove } from '../../../../../../packages/utils/src/array';
 import styles from './CreatablePillField.scss';
 
 export const SortableMultiValue = SortableElement((props: any) => {

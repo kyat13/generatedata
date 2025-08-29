@@ -3,9 +3,15 @@ import { format, fromUnixTime, add } from 'date-fns';
 import MainFields from '~components/accounts/mainFields/MainFields.component';
 import RadioPill, { RadioPillRow } from '~components/pills/RadioPill';
 import { LocalizedDatePicker, LocalizedDatePickerProvider } from '~components/datePicker/LocalizedDatePicker.component';
-import { getFormattedNum } from '@generatedata/utils/number';
-import * as dateStyles from '@generatedata/plugins/dist/dataTypes/Date/Date.scss';
-import C from '@generatedata/config/constants';
+// import { getFormattedNum } from '@generatedata/packages/utils/number';
+import { getFormattedNum } from '../../../../../../packages/utils/src/number';
+// import * as dateStyles from '../../../../packages/plugins/src/dataTypes/Date/Date.scss';
+import * as dateStyles from '../../../../../../packages/plugins/src/dataTypes/Date/Date.scss';
+// import C from '../../../../packages/config/src/constants';
+import * as C from '../../../../../../packages/config/src/constants';
+// If the above does not work, check if the file exists and exports correctly.
+// Alternatively, if C is a named export, use:
+// import { C } from '../../../../packages/config/src/constants';
 import styles from './ManageAccount.scss';
 
 export type ManageAccountProps = {

@@ -17,7 +17,7 @@ import workerUtils from '../../../client/src/utils';
 import { GDLocale, GenerationTemplate } from '~types/general';
 import { DTGenerateResult, DTGenerationData } from '~types/dataTypes';
 import { convertRowsToGenerationTemplate } from '~store/generator/generator.selectors';
-import { getCountryData } from '@generatedata/plugins';
+import { getCountryData } from '../../../../packages/plugins/src/index';
 import { setLocale } from '~utils/langUtils';
 
 export { availableLocales } from '../../../client/_env';

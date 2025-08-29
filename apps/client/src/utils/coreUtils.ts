@@ -2,12 +2,12 @@
 import { nanoid } from 'nanoid';
 import webWorkers from '../../_pluginWebWorkers';
 
-import { DataTypeFolder, ExportTypeFolder } from '@generatedata/plugins';
+import { DataTypeFolder, ExportTypeFolder } from '../../../../packages/plugins/src/index';
 // import env from '../../_env';
 
 import { version as rootPackageVersion } from '../../../../package.json'; // TODO see if the bundle includes the full package.json content
 
-import { DataTypeMap, ExportTypeMap, CountryNamesMap } from '@generatedata/plugins';
+import { DataTypeMap, ExportTypeMap, CountryNamesMap } from '../../../../packages/plugins/src/index';
 
 export const getScriptVersion = (): string => rootPackageVersion;
 
@@ -80,7 +80,7 @@ export const getCountryNamesBundle = (): any => {
 		import(
 			/* webpackChunkName: "countryNames" */
 			/* webpackMode: "lazy" */
-			'@generatedata/plugins/dist/names'
+			'../../../../packages/plugins/src/index/dist/names'
 		)
 			.then((resp: any) => {
 				namesPlugins = resp.default;

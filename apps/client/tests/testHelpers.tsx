@@ -11,7 +11,7 @@ import { getInitialState } from '~store/generator/generator.reducer';
 import { initialState as initialMainState } from '~store/main/main.reducer';
 import { initialState as initialPacketState } from '~store/packets/packets.reducer';
 import { initialState as initialAccountState } from '~store/account/account.reducer';
-import langUtils from '@generatedata/utils/lang';
+import langUtils from '../../../../packages/utils/src/lang';
 import { setLocaleFileLoaded } from '~store/main/main.actions';
 import generatorReducer from '~store/generator/generator.reducer';
 import mainReducer from '~store/main/main.reducer';
@@ -22,7 +22,7 @@ import { GeneratorLayout } from '@generatedata/types';
 import { ETSettings } from '~types/exportTypes';
 
 import i18n from '../src/i18n/en.json';
-import jsonI18n from '@generatedata/plugins/dist/exportTypes/JSON/i18n/en.json';
+import jsonI18n from '../../../../packages/plugins/src/index/dist/exportTypes/JSON/i18n/en.json';
 
 export const rootReducer = combineReducers({
 	generator: generatorReducer,

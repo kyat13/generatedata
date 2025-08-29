@@ -2,7 +2,7 @@ import * as React from 'react';
 import { NumericFormat } from 'react-number-format';
 import Button from '@mui/material/Button';
 import { Dialog, DialogActions, DialogContent, DialogTitle } from '~components/dialogs';
-import { getI18nString } from '@generatedata/utils/lang';
+import { getI18nString } from '../../../../packages/utils/src/lang';
 import { getFormattedNum } from '@generatedata/utils/number';
 import styles from './ActivityPanel.scss';
 import sharedStyles from '../../styles/shared.scss';

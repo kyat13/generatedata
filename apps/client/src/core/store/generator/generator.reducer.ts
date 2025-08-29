@@ -7,12 +7,12 @@ import * as mainActions from '../main/main.actions';
 import * as accountActions from '../account/account.actions';
 import * as packetActions from '../packets/packets.actions';
 import { ExportSettingsTab } from '../../generator/exportSettings/ExportSettings.types';
-import { DataTypeFolder, dataTypes, ExportTypeFolder, exportTypes } from '@generatedata/plugins';
+import { DataTypeFolder, dataTypes, ExportTypeFolder, exportTypes } from '../../../../packages/plugins/src/index';
 import { GeneratorLayout } from '@generatedata/types';
-import C from '@generatedata/config/constants';
+import C from '../../../../packages/config/src/constants';
 import { GeneratorPanel } from '~types/general';
 import { DTOptionsMetadata } from '~types/dataTypes';
-import clientConfig from '@generatedata/config/clientConfig';
+import clientConfig from '@generatedata/config';
 
 export type DataRow = {
 	id: string;

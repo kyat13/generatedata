@@ -13,7 +13,7 @@ import HelpDialog from '../dialogs/help/HelpDialog.container';
 import ClearPageDialog from '../dialogs/clearPage/ClearPage.container';
 import SchemaDialog from '../dialogs/schema/Schema.container';
 import { GeneratorLayout } from '@generatedata/types';
-import C from '@generatedata/config/constants';
+import C from '../../../../packages/config/src/constants';
 import './Generator.scss';
 
 export type GeneratorProps = {

@@ -142,7 +142,7 @@ export const localeFileMap: GDLocaleMap = ${JSON.stringify(content, null, '\t')}
 	};
 
 	const getPluginLocaleFiles = (grunt, locale, pluginTypeFolder) => {
-		const fullPluginFolder = path.resolve(__dirname, `./node_modules/@generatedata/plugins/dist/${pluginTypeFolder}`);
+		const fullPluginFolder = path.resolve(__dirname, `./node_modules/../../../../packages/plugins/src/index/dist/${pluginTypeFolder}`);
 		const plugins = fs.readdirSync(fullPluginFolder);
 		const imports = {};
 		plugins.forEach((folder) => {
@@ -188,7 +188,7 @@ window.gd.localeLoaded(i18n);
 
 	// looks through the plugins and finds the plugins that have a generator web worker file
 	const dataTypeWebWorkerMap = (() => {
-		const baseFolder = path.join(__dirname, 'node_modules/@generatedata/plugins/dist/dataTypes');
+		const baseFolder = path.join(__dirname, 'node_modules/../../../../packages/plugins/src/index/dist/dataTypes');
 		const folders = fs.readdirSync(baseFolder);
 
 		const map = {};

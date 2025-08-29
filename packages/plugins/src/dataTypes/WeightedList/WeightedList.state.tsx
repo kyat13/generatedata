@@ -1,4 +1,5 @@
-import { WeightedOptions } from '@generatedata/utils';
+// import { WeightedOptions } from '@generatedata/utils';
+import { WeightedOptions } from '../../../../../packages/utils/src/random';
 
 export const convertListItemsToObj = (values: WeightedListItem[]): WeightedOptions => {
   const valuesObj: WeightedOptions = {};

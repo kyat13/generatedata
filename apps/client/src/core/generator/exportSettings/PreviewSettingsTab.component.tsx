@@ -1,9 +1,11 @@
 import React from 'react';
 import Dropdown from '~components/dropdown/Dropdown';
 import Switch from '@mui/material/Switch';
-import { getArrayOfSize } from '@generatedata/utils/array';
+// import { getArrayOfSize } from '../../../../../../packages/utils/src/array';
+import { getArrayOfSize } from '../../../../../../packages/utils/src/array';
 import * as styles from './ExportSettings.scss';
-import C from '@generatedata/config/constants';
+// import C from '../../../../packages/config/src/constants';
+import C from '../../../../../../packages/config/src/constants';
 
 export type PreviewSettingsTabProps = {
 	theme: string;

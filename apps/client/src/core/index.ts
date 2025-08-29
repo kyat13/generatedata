@@ -1,15 +1,15 @@
 /* istanbul ignore file */
 import store from './store';
-import C from '@generatedata/config/constants';
+import C from '../../../../packages/config/src/constants';
 import * as actions from './store/generator/generator.actions';
 import * as mainActions from './store/main/main.actions';
 import * as selectors from './store/generator/generator.selectors';
 import * as mainSelectors from './store/main/main.selectors';
 import { requestCountryNames } from '~store/generator/generator.actions';
-import { DataTypeFolder } from '@generatedata/plugins';
+import { DataTypeFolder } from '../../../../packages/plugins/src/index';
 import * as coreUtils from '../utils/coreUtils';
 import { initAuthVendors } from '@generatedata/utils/auth';
-import { getCurrentPageLocale } from '@generatedata/utils/lang';
+import { getCurrentPageLocale } from '../../../../packages/utils/src/lang';
 import '../../_imports';
 
 export const init = (): void => {

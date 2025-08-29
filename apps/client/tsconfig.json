@@ -1,6 +1,7 @@
 {
 	"compilerOptions": {
 		"lib": ["es6", "dom", "esnext", "webworker"],
+		"rootDir": "c:/Users/khimyang/projects/generatedata",
 		"outDir": "./dist/",
 		"sourceMap": true,
 		"esModuleInterop": true,

@@ -10,7 +10,7 @@ import { PrimaryButton, SecondaryButton } from '~components/Buttons.component';
 import { Tooltip } from '~components/tooltips';
 import * as queries from '~core/queries';
 import * as styles from './DataSetHistory.scss';
-import C from '@generatedata/config/constants';
+import C from '../../../../packages/config/src/constants';
 import { CurrentDataSet } from '~store/generator/generator.reducer';
 
 export type DataSetHistoryProps = {

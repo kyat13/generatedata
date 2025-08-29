@@ -1,4 +1,4 @@
-import { DataType, DataTemplateRow, ExportType, ExportTypeConfig } from '@generatedata/plugins';
+import { DataType, DataTemplateRow, ExportType, ExportTypeConfig } from '../../../../packages/plugins/src/index';
 import { GDLocale } from '~types/general';
 import { DTGenerateResult, DTGenerationData } from './dataTypes';
 

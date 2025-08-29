@@ -1,5 +1,5 @@
 import { DataTypeBatchGeneratedPayload, DataTypeWorkerInterface, UnchangedGenerationData, WorkerInterface } from '~types/generator';
-import { DataTypeFolder, CountryNamesMap } from '@generatedata/plugins';
+import { DataTypeFolder, CountryNamesMap } from '../../../../packages/plugins/src/index';
 import { CountryDataType } from '@generatedata/types';
 import { GenerationTemplate } from '../../types/general';
 import { WorkerUtils } from './workerUtils';

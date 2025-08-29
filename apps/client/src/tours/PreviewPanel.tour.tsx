@@ -1,12 +1,12 @@
 import React from 'react';
 import Reactour, { ReactourStepPosition } from 'reactour';
-import { getStrings } from '@generatedata/utils/lang';
+import { getStrings } from '../../../../packages/utils/src/lang';
 import store from '~core/store';
 import * as actions from '~store/generator/generator.actions';
 import * as selectors from '~store/generator/generator.selectors';
 import { TourCompleteStep } from './Components.tour';
 import { TourProps } from '~types/general';
-import { DataTypeFolder, ExportTypeFolder } from '@generatedata/plugins';
+import { DataTypeFolder, ExportTypeFolder } from '../../../../packages/plugins/src/index';
 
 const Step1 = () => {
 	const { core: i18n } = getStrings();

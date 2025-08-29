@@ -13,7 +13,7 @@ import { isValidDateFormat } from '@generatedata/utils/date';
 import * as sharedStyles from '../../../styles/shared.scss';
 import { DateState, GenerationOptionsType } from './Date.state';
 import * as styles from './Date.scss';
-import C from '@generatedata/config/constants';
+import C from '../../../../packages/config/src/constants';
 
 export const rowStateReducer = ({ fromDate, toDate, format }: DateState): GenerationOptionsType => ({
   fromDate,

@@ -6,9 +6,12 @@ import AccountsPage from '~core/accounts/Accounts.container';
 import { GDHeaderLink, GDLocale, GDRoute } from '~types/general';
 import { AccountType } from '~types/account';
 import { PAGE_CHANGE } from '~store/main/main.actions';
-import { trimChars } from '@generatedata/utils/string';
-import clientConfig from '@generatedata/config/clientConfig';
-import C from '@generatedata/config/constants';
+// import { trimChars } from '../../../../packages/utils/src/string';
+import { trimChars } from '../../../../packages/utils/src/string';
+// import clientConfig from '@generatedata/config/clientConfig';
+import { clientConfig } from '../../../../packages/config/src/index';
+// import C from '../../../../packages/config/src/constants';
+import C from '../../../../packages/config/src/constants';
 
 // TODO move this under `extensionUtils`
 let customRoutes: GDRoute[] = [];

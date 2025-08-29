@@ -7,9 +7,9 @@ import * as styles from './Grid.scss';
 import { Tooltip } from '~components/tooltips';
 import { PrimaryButton } from '~components/Buttons.component';
 import { DataRow } from '~store/generator/generator.reducer';
-import { DataTypeFolder } from '@generatedata/plugins';
+import { DataTypeFolder } from '../../../../packages/plugins/src/index';
 import GridRow from './GridRow.container';
-import C from '@generatedata/config/constants';
+import C from '../../../../packages/config/src/constants';
 import { useMeasure } from '@uidotdev/usehooks';
 
 export type GridProps = {

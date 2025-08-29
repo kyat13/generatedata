@@ -8,7 +8,7 @@ import { DataRow } from '~store/generator/generator.reducer';
 import * as actions from '~store/generator/generator.actions';
 import { LoadDataTypeBundleOptions } from '~store/generator/generator.actions';
 import * as selectors from '~store/generator/generator.selectors';
-import { DataTypeFolder } from '@generatedata/plugins';
+import { DataTypeFolder } from '../../../../packages/plugins/src/index';
 import { DTOptionsMetadata } from '~types/dataTypes';
 
 type OwnProps = {

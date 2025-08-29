@@ -37,7 +37,9 @@ import Track2 from './dataTypes/Track2/config';
 import URLs from './dataTypes/URLs/config';
 import WeightedList from './dataTypes/WeightedList/config';
 import { CountryDataType, CountryNames, DatabaseTypes } from '@generatedata/types';
-import { getStrings } from '@generatedata/utils/lang';
+// import { getStrings } from '../../../../packages/utils/src/lang';
+// import { getStrings } from '@generatedata/utils';
+import { getStrings } from '../../../packages/utils/src/lang';
 
 export type ETMessageData = {
   action: 'generate' | 'pause' | 'continue' | 'abort';

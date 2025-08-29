@@ -10,7 +10,7 @@ import { SmallSpinner } from '~components/loaders/loaders';
 import AccountStatusPill from '~components/accounts/accountStatusPill/AccountStatusPill.component';
 import DeleteAccountDialog from '~core/dialogs/deleteAccount/DeleteAccount.component';
 import SearchFilter from './SearchFilter.component';
-import C from '@generatedata/config/constants';
+import C from '../../../../packages/config/src/constants';
 import Dropdown, { DropdownOption } from '~components/dropdown/Dropdown';
 import { AccountStatusFilter } from '~types/general';
 import * as queries from '~core/queries';

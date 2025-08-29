@@ -1,5 +1,6 @@
 {
 	"compilerOptions": {
+		"rootDir": "c:/Users/khimyang/projects/generatedata/packages",
 		"module": "commonjs",
 		"lib": ["es6"],
 		"types": ["node", "jest"],

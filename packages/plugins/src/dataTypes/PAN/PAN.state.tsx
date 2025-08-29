@@ -1,5 +1,6 @@
 import { creditCardFormats, CreditCardFormatType, CreditCardType, creditCardTypes } from './formats';
-import { cloneObj } from '@generatedata/utils/general';
+// import { cloneObj } from '@generatedata/utils/general';
+import { cloneObj } from '../../../../utils/src/general';
 
 export type PanState = {
   example: string;

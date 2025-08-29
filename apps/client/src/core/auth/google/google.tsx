@@ -7,7 +7,7 @@ import { onLoginSuccess, setAuthenticated, setAuthenticationData, setOnloadAuthD
 import { AuthMethod } from '~types/general';
 import * as mainSelectors from '~store/main/main.selectors';
 import { addToast } from '@generatedata/utils/general';
-import langUtils from '@generatedata/utils/lang';
+import langUtils from '../../../../packages/utils/src/lang';
 import clientConfig from '@generatedata/config/clientConfig';
 
 const googleBtnId = 'google-signin-button';

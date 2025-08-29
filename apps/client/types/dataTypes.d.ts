@@ -1,7 +1,7 @@
 // TODO rename to dataTypePlugins.ts
 import { DatabaseTypes } from '@generatedata/types';
 import { AnyObject, GenerationTemplate } from './general.d';
-import { CountryNamesMap, CountryType, DataTypeFolder } from '@generatedata/plugins';
+import { CountryNamesMap, CountryType, DataTypeFolder } from '../../../../packages/plugins/src/index';
 
 export type DTBundle = {
 	initialState?: any;

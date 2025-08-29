@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import * as actions from '~store/generator/generator.actions';
 import * as selectors from '~store/generator/generator.selectors';
 import Grid, { GridProps } from './Grid.component';
-import { DataTypeFolder } from '@generatedata/plugins';
+import { DataTypeFolder } from '../../../../packages/plugins/src/index';
 
 const mapStateToProps = (state: any): Pick<GridProps, 'i18n' | 'columnTitle' | 'rows'> => ({
 	i18n: selectors.getCoreI18n(state),

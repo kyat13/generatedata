@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "rootDir": "./src",
+    "rootDir": "c:/Users/khimyang/projects/generatedata/packages",
     "outDir": "./dist",
     "target": "esnext",
     "module": "nodenext",

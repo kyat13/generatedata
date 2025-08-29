@@ -3,7 +3,7 @@ const md5File = require('md5-file');
 const path = require('path');
 
 const getPlugins = (pluginType, blacklist, checkConfigFileExistence = true) => {
-	console.log(require.resolve(`@generatedata/plugins/dist/plugins/${pluginType}`));
+	console.log(require.resolve(`../../../../packages/plugins/src/index/dist/plugins/${pluginType}`));
 
 	// const baseFolder = path.join(__dirname, '..', `/src/plugins/${pluginType}`);
 	// const folders = fs.readdirSync(baseFolder);

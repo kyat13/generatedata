@@ -1,5 +1,5 @@
 {
-  "name": "@generatedata/plugins",
+  "name": "../../../../packages/plugins/src/index",
   "version": "1.0.0",
   "description": "generatedata.com plugins",
   "module": "./dist/index.js",

@@ -6,7 +6,7 @@ import Dropdown from '~components/dropdown/Dropdown';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
-import { canadianProvinceOptions, countryDropdownOptions } from '@generatedata/plugins';
+import { canadianProvinceOptions, countryDropdownOptions } from '../../../../packages/plugins/src/index';
 import Refresh from '@mui/icons-material/Refresh';
 import { AccountEditingData } from '~store/account/account.reducer';
 import { isValidEmail } from '@generatedata/utils/general';

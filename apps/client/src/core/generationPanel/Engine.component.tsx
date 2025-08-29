@@ -1,11 +1,11 @@
 import { useEffect } from 'react';
 import * as coreUtils from '../../utils/coreUtils';
-import C from '@generatedata/config/constants';
+import C from '../../../../packages/config/src/constants';
 import useDidUpdate from '../../hooks/useDidUpdate';
 import { DataPacket } from '~store/packets/packets.reducer';
-import { CountryNamesMap } from '@generatedata/plugins';
+import { CountryNamesMap } from '../../../../packages/plugins/src/index';
 import { GenerationWorkerActionType } from '~core/generator/generation.types';
-import { DataTypeMap, ExportTypeMap } from '@generatedata/plugins';
+import { DataTypeMap, ExportTypeMap } from '../../../../packages/plugins/src/index';
 import { CountryDataType } from '@generatedata/types';
 
 export type EngineProps = {

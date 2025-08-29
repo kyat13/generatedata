@@ -6,7 +6,7 @@ import * as packetSelectors from '../store/packets/packets.selectors';
 import Engine, { EngineProps } from './Engine.component';
 import * as coreUtils from '../../utils/coreUtils';
 import { GDAction } from '~types/general';
-import { getCountryData } from '@generatedata/plugins';
+import { getCountryData } from '../../../../packages/plugins/src/index';
 
 const mapStateToProps = (state: any): Partial<EngineProps> & { packetId: any } => {
 	const packet = packetSelectors.getCurrentPacket(state);

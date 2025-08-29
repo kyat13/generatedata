@@ -1,9 +1,9 @@
 import React from 'react';
-import { getLocale, getStrings } from '@generatedata/utils/lang';
-import { dataTypes, DataTypeFolder, blacklistedDataTypeFolders } from '@generatedata/plugins';
+import { getLocale, getStrings } from '../../../../packages/utils/src/lang';
+import { dataTypes, DataTypeFolder, blacklistedDataTypeFolders } from '../../../../packages/plugins/src/index';
 import { DTBundle, DTCustomProps, DTHelpProps } from '~types/dataTypes';
 import { Store } from '~types/general';
-import C from '@generatedata/config/constants';
+import C from '../../../../packages/config/src/constants';
 
 type LoadedDataTypes = {
 	[name in DataTypeFolder]: DTBundle;

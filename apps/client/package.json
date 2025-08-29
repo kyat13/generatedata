@@ -114,7 +114,7 @@
 		"@babel/preset-react": "^7.7.4",
 		"@esbuild-plugins/tsconfig-paths": "^0.0.4",
 		"@generatedata/config": "workspace:*",
-		"@generatedata/plugins": "workspace:*",
+		"../../../../packages/plugins/src/index": "workspace:*",
 		"@generatedata/utils": "workspace:*",
 		"@generatedata/types": "workspace:*",
 		"@rollup/plugin-commonjs": "^15.1.0",

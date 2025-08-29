@@ -2,10 +2,10 @@ import { createSelector } from 'reselect';
 import { GeneratorLayout } from '@generatedata/types';
 import { CurrentDataSet, DataRow, DataRows } from './generator.reducer';
 import { GeneratorPanel } from '~types/general';
-import { DataTypeFolder, ExportTypeFolder } from '@generatedata/plugins';
+import { DataTypeFolder, ExportTypeFolder } from '../../../../packages/plugins/src/index';
 import * as mainSelectors from '../main/main.selectors';
 import * as coreUtils from '../../../utils/coreUtils';
-import * as langUtils from '@generatedata/utils/lang';
+import * as langUtils from '../../../../packages/utils/src/lang';
 import { processBatches, getDataType } from '~utils/dataTypes';
 import {
 	getExportTypeLabel as exportTypeUtilsGetExportTypeLabel,
@@ -13,7 +13,7 @@ import {
 	getExportTypeTitleValidationFunction as exportTypeGetExportTypeTitleValidation
 } from '~utils/exportTypes';
 import { GDLocale, GenerationTemplate, Store } from '~types/general';
-import { ColumnData } from '@generatedata/plugins';
+import { ColumnData } from '../../../../packages/plugins/src/index';
 
 export const getLoadedDataTypes = (state: Store): any => state.generator.loadedDataTypes;
 export const getLoadedExportTypes = (state: Store): any => state.generator.loadedExportTypes;

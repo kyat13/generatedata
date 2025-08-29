@@ -6,14 +6,14 @@ import InfoIcon from '@mui/icons-material/InfoOutlined';
 import Dropdown from '~components/dropdown/Dropdown';
 import { DataRow } from '~store/generator/generator.reducer';
 import { LoadDataTypeBundleOptions } from '~store/generator/generator.actions';
-import { DataTypeFolder } from '@generatedata/plugins';
+import { DataTypeFolder } from '../../../../packages/plugins/src/index';
 import * as styles from './Grid.scss';
 import * as sharedStyles from '../../../styles/shared.scss';
 import TextField from '~components/TextField';
 import { SmallSpinner } from '~components/loaders/loaders';
 import { SmallScreenSettingsIcon } from './SmallScreenSettingsIcon';
 import { DTOptionsMetadata } from '~types/dataTypes';
-import { CountryNamesMap } from '@generatedata/plugins';
+import { CountryNamesMap } from '../../../../packages/plugins/src/index';
 
 const getItemStyle = (isDragging: boolean, draggableStyle: any): React.CSSProperties => {
 	const styles: React.CSSProperties = {
